@@ -2,6 +2,12 @@
 /*
 urls on the domain: mail.google.com
  */
+
+/*
+ * Changelog:
+ * 2016-12-16: ccoVeille - Fix "Categorize this message" section color
+ */
+
 .adp {
   background: none !important;
 }
@@ -35,6 +41,7 @@ urls on the domain: mail.google.com
   border-bottom-color: -moz-initial !important;
   border-bottom-style: none !important;
   border-bottom-width: 0 !important;
+
 }
 
 #gbx3 {
@@ -933,4 +940,13 @@ zzz, .gb_l {
 zzz, .gbqldr, .gb_fa, .gb_ha, .gb_ca {
   -webkit-filter: grayscale() !important;
 }
+
+/*
+ * Fix color of "Categorize this message" section over mail body
+ * This section is hidden by most users but not everyone, including me :)
+ */
+.aBj {
+  background: none !important;
+}
+
 }
