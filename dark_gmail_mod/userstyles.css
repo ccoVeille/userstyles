@@ -989,4 +989,21 @@ zzz, .gbqldr, .gb_fa, .gb_ha, .gb_ca {
     top: -10px;
 }
 
+
+/*
+ * Fix "more options" icon in toolbar when composing email: position + icon color
+ */
+
+/* Fix icon position */
+.J-JN-M-I {
+	vertical-align: middle;
+}
+
+/* Fix icon color by reusing "more" icon */
+.Y1 {
+    background: no-repeat url(https://ssl.gstatic.com/mail/sprites/general-76906fbc82f79822625038e272fa3893.png) 0 -564px;
+    height: 21px;
+    width: 21px;
+}
+
 }
