@@ -963,4 +963,12 @@ zzz, .gbqldr, .gb_fa, .gb_ha, .gb_ca {
   background-color: #87CEEB !important;
 }
 
+/*
+ * Fix color of separators in toolbar when composing message
+ */ 
+.Uz  {
+    background: none !important;
+    border-right-color: rgba(255,255,255,.2) !important;
+}
+
 }
