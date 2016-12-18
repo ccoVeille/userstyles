@@ -941,12 +941,26 @@ zzz, .gbqldr, .gb_fa, .gb_ha, .gb_ca {
   -webkit-filter: grayscale() !important;
 }
 
+
 /*
  * Fix color of "Categorize this message" section over mail body
  * This section is hidden by most users but not everyone, including me :)
  */
 .aBj {
   background: none !important;
+}
+
+
+/*
+ * Change background of checkbox used to select emails.
+ * Black tick over black background was not easy to use on daily basis
+ */  
+.T-Jo-Jp {
+  
+  /* Option 1 */
+  /* background-color: rgba(255,255,255,.65) !important; */
+  /* Option 2 */
+  background-color: #87CEEB !important;
 }
 
 }
