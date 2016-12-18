@@ -971,4 +971,22 @@ zzz, .gbqldr, .gb_fa, .gb_ha, .gb_ca {
     border-right-color: rgba(255,255,255,.2) !important;
 }
 
+/*
+ * Fix color of small lines between emails when email conversation is folded due to the number of emails
+ */
+.hx .kQ .Bk .G2 {
+    border-top-color: #666 !important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;  
+}
+
+/*
+ * Set background color and position of text "X older messages"
+ * This text appears over small lines when email conversation is folded and when there is a lot of messages
+ */
+.adx {
+    background-color: #222 !important;
+    top: -10px;
+}
+
 }
