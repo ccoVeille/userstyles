@@ -681,6 +681,7 @@ urls on the domain: mail.google.com
 
 .ii.gt, .ii.gt * {
   color: #efefef;
+  background: #222 !important;
 }
 
 .ii.gt tr[style] {
